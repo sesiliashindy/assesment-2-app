@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/edit.css">
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Data</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="mb-3 row">
+                        <label for="urlImage" class="col-sm-2 col-form-label">Url Image</label>
+                        <div class="col-sm-10">
+                            <input type="url" class="form-control" id="url" placeholder="Url Image...">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="title" class="col-sm-2 col-form-label">Title</label>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Title...">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="title" class="col-sm-2 col-form-label">Description</label>
+                        <div class="col">
+                            <textarea name="form-control" placeholder="Description..."></textarea>
+                        </div>
+                    </div>
+                </div>
+            <div class="modal-footer border-0">
+            <button onclick="sweetalertclick()" type="button" class="btn btn-warning">Save</button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/edit.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
