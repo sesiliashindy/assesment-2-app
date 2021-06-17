@@ -19,19 +19,20 @@
         </div>
         <div class="right">
             <img src="./assets/books.png" class="img">
-            <form>
+            <form name="login" action="home.html" method="GET" onsubmit="return validateLogin()">
                 <section class="rightSide">
                     <h1>Login</h1>
                     <p>Welcome Back,Please Login to your account</p>
                 </section>
 
                 <div class="form-floating">
-                    <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com">
+                    <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" required>
+                    <input type="hidden" name="role" id="role">
                     <label for="email">Email address</label>
                 </div>
 
                 <div class="form-floating">
-                    <input class="form-control" id="password" name="password" type="password" placeholder="Password">
+                    <input class="form-control" id="password" name="password" type="password" placeholder="Password" required>
                     <label for="password">Password</label>
                 </div>
 
@@ -43,9 +44,10 @@
                     </label>
                 </div>
                 <div class="btn-edit">
-                    <button type="button" class="btn btn-sm btn-login">Login</button>
-                    <button type="button" class="btn btn-sm btn-signup">Sign Up</button>
+                    <button type="submit" class="btn btn-sm btn-login">Login</button>
+                    <a class="btn btn-sm btn-signup" href="./register.html">Sign Up</a>
                 </div>
+
                 <section class="legal">
                     <p><span class="small">
                         By signing up, you agree to Book’s <br><a href="#">Terms and Conditions</a>
@@ -55,5 +57,7 @@
             </form>
         </div> 
     </div>
+
+    <script src="./js/login.js"></script>
 </body>
 </html>

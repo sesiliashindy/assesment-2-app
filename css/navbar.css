@@ -1,0 +1,164 @@
+.home-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+}
+
+.sidebar-wrapper {
+    width: 24%;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    /* height: 100%; */
+    /* border: 3px solid yellow; */
+}
+
+.menu-icon {
+    float: right;
+    margin-top: 22px;
+    margin-right: 22px;
+    background-color: white;
+    border: none;
+}
+
+.avatar {
+    display: flex;
+    /* border: 1px solid green; */
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    justify-content: center;
+    align-items: center;
+    margin: 66px 0 0 94px;
+    /* top,right,bottom,left*/
+}
+
+/* .avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    object-fit: cover;
+} */
+
+.profilpic {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    object-fit: cover;
+}
+
+.sidebar-wrapper h3{
+    margin: 16px 0 0 82px;
+}
+
+.description {
+    height: 100px;
+}
+
+.minimize {
+    width: 0px;
+    height: 0px;
+}
+
+.btn-logout {
+    margin: 14px 0 0 111px;
+    font-family: Open Sans;
+    font-weight: 700;
+    size: 18px;
+}
+
+.btn-logout a{
+    text-decoration: none;
+    background-color: grey;
+    font: white;
+    font-weight: bold;
+    padding: 3px 28px;
+    border-radius: 8px;
+}
+
+.header-wrapper {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin: 12px 0 0 0;
+}
+
+.logo h4{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.boxContainer{
+    margin:auto;
+    position: relative;
+    width: 406px;
+    height: 43px;
+    border: 1px solid #CACACA;
+    padding: 0px 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+.elementsContainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.all-categories{
+    margin-right: 20px;
+}
+
+.btn-img img{
+    margin-top: 3px;
+    margin-left: 6px;
+}
+
+.explore-home{
+    font-family: Open Sans;
+    font-weight: 600;
+    size: 25px;
+    padding-top: 45px;
+    padding-left: 49px;
+    
+}
+
+.history-home{
+    font-family: Open Sans;
+    font-weight: 600;
+    size: 25px;
+    padding-top: 15px;
+    padding-left: 49px;
+} 
+
+.add-book {
+    font-family: Open Sans;
+    font-weight: 600;
+    size: 25px;
+    padding-top: 15px;
+    padding-left: 49px;
+}
